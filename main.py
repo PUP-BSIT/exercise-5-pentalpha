@@ -24,7 +24,17 @@ if answer.upper() == "D":
 else: 
     print(f"{answer} is incorrect. The correct answer is D.")
 
-# TODO(Managbanag): Add third question
+print("\n(Mark Managbanag) What is the remainder of 5 × 5 % 6?")
+print("a) 0               b) 2")
+print("c) 1               d) 3")
+
+answer = input("Enter your answer: ")
+
+if answer.upper() == "C":
+    total_score += 1
+    print("Great Job!")
+else: 
+    print(f"{answer} is incorrect. The correct answer is C.")
 
 # TODO(Raymundo): Add fourth question
 
