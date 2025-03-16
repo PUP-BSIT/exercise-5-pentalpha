@@ -6,13 +6,23 @@ print("c) Moho                  d) Crust")
 
 answer = input("Enter your answer: ")
 
-if (answer.upper() == 'A'):
+if answer.upper() == 'A':
     total_score += 1
     print("Correct!, the answer is A.")
 else:
     print(f"{answer} is incorrect. The correct answer is A.")
 
-# TODO(Banzali): Add second question
+print("\n(Gabrielle Banzali) What is the capital of France?")
+print("a) Madrid                b) London")
+print("c) Berlin                d) Paris")
+
+answer = input("Enter your answer: ")
+
+if answer.upper() == "D":
+    total_score += 1
+    print("Well done! The answer is D.")
+else: 
+    print(f"{answer} is incorrect. The correct answer is D.")
 
 # TODO(Managbanag): Add third question
 
