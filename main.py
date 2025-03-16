@@ -36,6 +36,16 @@ if answer.upper() == "C":
 else: 
     print(f"{answer} is incorrect. The correct answer is C.")
 
-# TODO(Raymundo): Add fourth question
+print("\n(Angella Jane Raymundo) What do plants need for photosynthesis?")
+print("a) Oxygen              b) Sunlight")
+print("c) Rocks               d) Iron")
 
-# TODO(Espinola): Add fifth question and print total score
+answer = input("Enter your answer: ")
+
+if answer.upper() == 'B':
+    total_score += 1
+    print("You got it! The answer is B.")
+else:
+    print(f"{answer} is incorrect. The correct answer is B.")
+
+# TODO(Espinola): Add fifth question and print total score 
