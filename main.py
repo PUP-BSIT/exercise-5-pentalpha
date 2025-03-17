@@ -48,4 +48,16 @@ if answer.upper() == 'B':
 else:
     print(f"{answer} is incorrect. The correct answer is B.")
 
-# TODO(Espinola): Add fifth question and print total score 
+print("\n(Frankie Josh Espinola) What is the powerhouse of the cell?")
+print("a) Mitochondria             b) Nucleus")
+print("c) DNA                      d) Cell Wall")
+
+answer = input("Enter your answer: ")
+
+if answer.upper() == 'A':
+    total_score += 1
+    print("You got it! The answer is A.")
+else:
+    print(f"{answer} is incorrect. The correct answer is A.")
+
+print(f"Your Score is {total_score} / 5!")
